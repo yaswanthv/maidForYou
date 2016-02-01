@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MaidForYou</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_display_text">Please select the above services.</string>
+    <string name="book_now">Book Now</string>
+    <string name="book_later">Book Later</string>
+    <string name="book_later_popup_title">Select Date &amp; Time</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="ok_text">Ok</string>
+    <string name="display_text_prefix">You have selected </string>
+    <string name="display_text_suffix"> service(s)</string>
+</resources>

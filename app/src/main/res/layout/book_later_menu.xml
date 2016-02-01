@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/rideLaterDatePicker"
+        android:calendarViewShown="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/rideLaterTimePicker"
+        android:layout_below="@+id/rideLaterDatePicker" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_text"
+            android:id="@+id/cancel_menu_ride_later"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok_text"
+            android:id="@+id/ok_menu_ride_later"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</RelativeLayout>
